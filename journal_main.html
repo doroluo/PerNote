@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<!-- needed for a html file -->
+
+
+<head>
+	<!-- links files -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300i,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="journal_main.css">
+	<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+
+
+<body>
+	<div class = "topnav">
+		<li class="top"><a class = "home" href="journal_main.html">
+			<img id="logo" src="logo_transparent.png" height="200">
+		</a></li>
+	</div>
+
+	<!-- side bar -->
+	<div class="sidebox">
+		<div class="default1">
+			<p>
+				<i class="far fa-calendar-alt"></i>
+				<a href="journal_calendar.html" class="calendar2"> 
+					Calendar
+				</a>
+			</p>
+			<p>
+				<i class="far fa-file-alt"></i>
+				<a href="journal_main.html" class="all"> 
+					All Entries
+				</a>
+			</p>
+		</div>
+		<div class="categories">
+			<p class="tags">
+				<i class="fas fa-angle-down"></i>
+				<a>Tags</a>
+			</p>
+			<p class="moods">
+				<p class="happy">
+					<i class="far fa-grin"></i>
+					Happy
+				</p>
+				<p class="sad">
+					<i class="far fa-frown"></i>
+					Sad
+				</p>
+				<p class="angry">
+					<i class="far fa-angry"></i>
+					Angry
+				</p>
+				<p class="meh">
+					<i class="far fa-meh"></i>
+					Meh
+				</p>
+				<p class="love">
+					<i class="far fa-grin-hearts"></i>
+					In Love
+				</p>
+			</p>
+		</div>
+	</div>
+
+	<div class="displayNotes">
+		<div class="entries">
+			<li class="entryhead">
+				<h1 class="entryhead2">
+					Entries
+				</h1>
+			</li>
+			<li class="entryhead">
+				<button id="myBtn" class="addNew">
+					<i class="far fa-edit"></i>
+					<p class="far fa-edit2">&nbsp; New Entry</p>
+				</button>
+			</li>
+		</div>
+		<br>
+		<div class="entries2">
+			<button id="myBtn2" class="myBtn2">
+				<h3>
+					Lorem Ipsum
+				</h3>
+				<p>
+					01/12/2020
+					<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</button>
+		</div>
+		<br>
+		<div class="entries3">
+			<button id="myBtn3" class="myBtn3">
+				<h3>
+					Lorem Ipsum 2
+				</h3>
+				<p>
+					01/23/2020
+					<br>
+					But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,
+				</p>
+			</button>
+		</div>
+
+	</div>
+
+	<!-- modal info -->
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<form>
+				Date (mm/dd/yyyy):&nbsp;
+				<input class="date" type="text" name="date"> <br><br>
+
+				Title:&nbsp;
+				<input class="title" type="text" name="title"> <br><br>
+
+				Content:<br>
+				<input class="content" type="text" name="content"> <br><br>
+
+				<input class="submitBtn" type="submit" name="Save"> <br><br>
+			</form>
+		</div>
+	</div>
+
+	<div id="myModal2" class="modal">
+		<div class="modal-content">
+			<span class="close2">&times;</span>
+			<h1 class="textTitle">
+				Lorem Ipsum
+			</h1>
+			<p class="textDate">
+				01/12/2020
+			</p>
+			<p class="textContent">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</div>
+
+	<div id="myModal3" class="modal">
+		<div class="modal-content">
+			<span class="close3">&times;</span>
+			<h1 class="textTitle">
+				Lorem Ipsum
+			</h1>
+
+			<p class="textDate">
+				01/23/2020
+			</p>
+
+			<p class="textContent">
+				But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+			</p>
+		</div>
+	</div>
+
+	<div class="testDiv"></div>
+</body>
+
+
+<script src="journal_main.js" charset="utf-8"></script>
+
+
+</html>

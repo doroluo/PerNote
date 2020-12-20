@@ -1,0 +1,265 @@
+li.top {
+  display: inline;
+  padding-top: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+}
+body{
+	margin: 0px;
+	background-color: #ffdbc5;
+}
+.topnav {
+	text-align: center;
+	overflow: hidden;
+	height: 200px;
+	width: 100%;
+	font-size: 40px;
+	padding-top: 20px;
+	margin: 0px;
+ 	font-family: 'Raleway', sans-serif;
+}
+.topnav a.home {
+	float: center;
+	color: black;
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+	font-size: 28px;
+	padding: 20px;
+}
+.sidebox {
+	text-align: left;
+	overflow: hidden;
+	height: auto;
+	width: 200px;
+	float: left;
+	text-decoration: none;
+	color: black;
+	font-size: 17px;
+	padding:40px;
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-right: 50px;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 18px;
+	background-color: #ffffff;
+	border: 0.5px solid #f3f3f3;
+}
+.far.fa-calendar-alt {
+	color: #018383;
+}
+.calendar2 {
+	color: black;
+	text-decoration: none!important;
+}
+.calendar2:hover {
+	color: #db3056;
+	text-decoration: none!important;
+}
+.far.fa-file-alt {
+	color: #ff9d76;
+}
+.all {
+	color: #db3056;
+	text-decoration: none!important;
+}
+.all:hover {
+	color: black;
+}
+.default1 {
+	border-bottom: 1px solid #bbb;
+}
+.tags {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #c9d1d3;
+}
+.happy, .sad, .angry, .meh, .love {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: #bbb;
+}
+.happy:hover, .sad:hover, .angry:hover, .meh:hover, .love:hover {
+	color: #66cccc;
+}
+.far.fa-angry {
+	color: #9d0b0b;
+}
+.far.fa-frown {
+	color: #2f4785;
+}
+.far.fa-grin {
+	color: #ffb400;
+}
+.far.fa-meh {
+	color: #655b61;
+}
+.far.fa-grin-hearts{
+	color: #f676c7;
+}
+
+.displayNotes {
+	text-align: left;
+	overflow: hidden;
+	height: auto;
+	width: 700px;
+	float: right;
+	text-decoration: none;
+	color: black;
+	padding:40px;
+	margin-top: 50px;
+	margin-right: 200px;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 18px;
+	background-color: #ffffff;
+	border: 0.5px solid #f3f3f3;
+}
+.far.fa-edit{
+	font-size: 14px;
+	color: #ffffff;
+}
+.far.fa-edit2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+}
+.entries {
+	display: flex;
+}
+.displayNotes li.entryhead {
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bbb;
+	height: 50px;
+	width: 700px;
+	display: inline;
+}
+h1.entryhead2 {
+	float: left;
+	margin-top: 0px;
+	font-family: 'Abel', sans-serif;
+	font-size: 45px;
+	padding-bottom: 10px;
+}
+.addNew {
+	float: right;
+	border-radius: 5px;
+	border: 0.5px solid #111d5e;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+	background-color: #111d5e;
+	margin-bottom: 10px;
+}
+.addNew:hover {
+	background-color: #940a37;
+	border: 0.5px solid #940a37;
+}
+
+.myBtn2, .myBtn3 {
+	border: none;
+	background-color: #ffffff;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	float: left;
+	text-align: left;
+	border-bottom: 0.25px solid #5b5656;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+.myBtn2 p, .myBtn3 p {
+	font-size: 14px;
+	color: black;
+}
+
+
+
+
+
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	border-radius: 16px;
+	background-color: #ffffff;
+	border: 0.5px solid #f3f3f3;
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 40px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+.date {
+	width: 150px;
+	border-radius: 5px;
+	border: 0.5px solid #5d5b6a;
+}
+.title {
+	width: 200px;
+	border-radius: 5px;
+	border: 0.5px solid #5d5b6a;
+}
+.content {
+	width: 100%;
+	height: 500px;
+	border-radius: 5px;
+	border: 0.5px solid #5d5b6a;
+}
+.submitBtn {
+	float: right;
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 0.5px solid #e5dfdf;
+}
+.submitBtn:hover {
+	background-color: #393e46;
+	color: #ffffff;
+}
+
+
+.textTitle {
+	font-size: 24px;
+	color: black;
+}
+.textDate {
+	font-size: 18px;
+	color: #5b5656;
+}
+.textContent {
+	font-size: 16px;
+	color: black;
+}
+
+/* The Close Button */
+.close, .close2, .close3 {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
